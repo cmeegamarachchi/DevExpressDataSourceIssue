@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 using NorthwindBusinessServices.Products;
 using NorthwindDataAccess.DataContext;
 
 namespace DevExpressDataSource
 {
-    public partial class Form1 : Form
+    public partial class Form1 : XtraForm
     {
         public Form1()
         {
